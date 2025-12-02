@@ -15,8 +15,9 @@ public class Brand_Logo {
         
         for (char c : wifeName.toCharArray()) {
             if (st.contains(c)) {
-                int a = (int)c - 97;
-                max = Math.min(a, max);
+                // int a = (int)c - 97;
+                // max = Math.min(a, max);
+                ch = c;
             }
         }
         
